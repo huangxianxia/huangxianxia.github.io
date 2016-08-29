@@ -9,7 +9,7 @@ highlights: pygments
 lsi: false
 timezone: Asia/Shanghai
 safe: false
-
+theme: minima
 JB :
   ASSET_PATH : http://zhu8.qiniudn.com/assets
   IMAGE_PATH : http://zhu8.qiniudn.com/images
