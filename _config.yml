@@ -1,29 +1,32 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# This is the default format. 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+# permalink: /:categories/:year/:month/:day/:title 
+permalink: /blog/:year/:month/:title.html 
+include: ['.htaccess']
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
+markdown: redcarpet
+highlights: pygments
+lsi: false
+timezone: Asia/Shanghai
+safe: false
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+JB :
+  ASSET_PATH : http://zhu8.qiniudn.com/assets
+  IMAGE_PATH : http://zhu8.qiniudn.com/images
+# auto: true # deprecated
 
-# Build settings
-markdown: kramdown
-theme: minima
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+url: http://git.chenjun.com
+title: ChenJun(Zhu8)-浮生志
+tagline: On The Way to Philistinism...
+about: <a href="http://chenjun.com/"><strong>陈俊</strong></a>ChenJun(Zhu8)的个人网站，江苏人士，83年生人，电子产品自虐狂，<a href="http://chenjun.com/wang2/"><strong>王小波</strong></a>门下走狗，欢迎<strong>Fork</strong>本站@<a href="https://github.com/Zhu8/zhu8.github.io/fork">Github</a>。
+author:
+  name: Chen Jun(Zhu8)
+  email: zhu8.net@gmail.com
+  github: Zhu8
+  twitter: 5CJ
+  facebook: ichenjun
+  googleplus: +ChenJun
+  feedburner : Zhu8/github
