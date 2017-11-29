@@ -11,8 +11,8 @@ timezone: Asia/Shanghai
 safe: false
 theme: minima
 JB :
-  ASSET_PATH : http://zhu8.qiniudn.com/assets
-  IMAGE_PATH : http://zhu8.qiniudn.com/images
+  ASSET_PATH : http://huangxianxia.github.io/assets
+  IMAGE_PATH : http://huangxianxia.github.io/images
 # auto: true # deprecated
 
 # Themes are encouraged to use these universal variables 
@@ -21,12 +21,12 @@ JB :
 url: http://huangxianxia.github.io
 title: huangxianxia(人生记)
 tagline: On The Way to understand world
-about: <a href="http://huangxianxia.github.io/"><strong>黄贤夏</strong></a>huangxianxia(nick)的个人网站，浙江人士，85年生人，嵌入式软件一枚，欢迎<strong>Fork</strong>本站@<a href="https://huangxianxia.github.io/fork">Github</a>。
+about: <a href="http://huangxianxia.github.io/"><strong>黄贤夏</strong></a>huangxianxia(nick)的个人网站，浙江人士，85年生人，嵌入式软件一枚，欢迎<strong>Fork</strong>本站@<a href="https://github.com/huangxianxia/huangxianxia.github.io/fork">Github</a>。
 author:
   name: huangxianxia(nick)
   email: nick.huangxianxia@gmail.com 
   github: huangxianxia
-  twitter: nick_huang85
+  twitter: nick_hxx
   facebook: 
   googleplus: 
   feedburner : 
